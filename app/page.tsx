@@ -8,11 +8,11 @@ export default function Home() {
   const titleStyle = {
     fontSize: '100px',
     fontWeight: 'bold',
-    textAlight: 'left',
+    textAlign: 'left',
   };
   const subTitleStyle = {
     fontSize: '36px',
-    fontWeight: 'semibold',
+    fontWeight: '600',
     textAlign: 'left',
   };
   const textStyleLeft = {
@@ -42,7 +42,7 @@ export default function Home() {
      <div style={textStyleRight}>product manager • casual blogger • vibe bringer</div>
      </div>
       <div style={subTitleStyle}>a brief introduction
-        <div style = {textStyleLeft}>
+        <div style={textStyleLeft}>
           <div>van  mtl  sf</div>
           <div>sfu cs + business</div>
         </div>
