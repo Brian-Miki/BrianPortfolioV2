@@ -20,7 +20,7 @@ export default function Home() {
     textAlign: 'left',
     margin: '12px 0px 16px',
   };
-  const textStyleRight = {
+  const textStyleRight: React.CSSProperties = {
     fontSize: '18px',
     textAlign: 'right',
     margin: '12px 0px 16px',
@@ -39,7 +39,7 @@ export default function Home() {
      <a href="https://www.linkedin.com/in/brian-miki/"><Image src={LinkedInIcon} alt="LinkedIn" width={35} height={35}/></a>
      <a href="mailto:bmiki5508@gmail.com"><Image src={GmailIcon} alt="Email"width={35} height={27}/></a>
      <a href="https://medium.com/@bmiki5508"><Image src ={MediumIcon} alt ="Blog" width={35} height={27}/></a>
-     <div style={textStyleRight}>product manager • casual blogger • vibe bringer</div>
+     <div>product manager • casual blogger • vibe bringer</div>
      </div>
       <div style={subTitleStyle}>a brief introduction
         <div style={textStyleLeft}>
