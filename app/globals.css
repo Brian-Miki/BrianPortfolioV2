@@ -16,12 +16,19 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media (min-width: 768px) {
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+  .body{
+    background-color: blue;
+  }
 }
+
