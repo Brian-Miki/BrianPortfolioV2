@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col lg: items-center md: items-left p-24">
       
-     <div class = "grid md:grid-cols-1 lg:grid-cols-2 gap-4">
+     <div className = "grid md:grid-cols-1 lg:grid-cols-2 gap-4">
      <div style={titleStyle}>brian miki.</div>
      <div className="hidden sm:flex flex-col items-end">
      <a href="https://www.linkedin.com/in/brian-miki/"><Image src={LinkedInIcon} alt="LinkedIn" width={35} height={35}/></a>
