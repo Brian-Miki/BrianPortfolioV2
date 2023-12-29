@@ -5,17 +5,17 @@ import MediumIcon from './medium-icon.svg'
 
 
 export default function Home() {
-  const titleStyle = {
+  const titleStyle: React.CSSProperties = {
     fontSize: '100px',
     fontWeight: 'bold',
     textAlign: 'left',
   };
-  const subTitleStyle = {
+  const subTitleStyle: React.CSSProperties = {
     fontSize: '36px',
     fontWeight: '600',
     textAlign: 'left',
   };
-  const textStyleLeft = {
+  const textStyleLeft: React.CSSProperties = {
     fontSize: '18px',
     textAlign: 'left',
     margin: '12px 0px 16px',
