@@ -43,7 +43,7 @@ export default function Home() {
      </div>
       <div style={subTitleStyle}>a brief introduction
         <div style = {textStyleLeft}>
-          <div>van -> mtl -> sf</div>
+          <div>van  mtl  sf</div>
           <div>sfu cs + business</div>
         </div>
       </div>
